@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/bt_start"
@@ -12,6 +11,20 @@
         android:onClick="onClick"
         android:text="" />
 
+
+    <com.example.mytest.view.progress.SpinKitView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/spin_kit"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"/>
+
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progressbar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimaryDark"/>
 
 
 </LinearLayout>
